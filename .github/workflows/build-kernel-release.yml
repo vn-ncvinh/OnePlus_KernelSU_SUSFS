@@ -47,7 +47,7 @@ jobs:
     secrets: inherit
     if: ${{ inputs.build_op12 }}
   build-kernel-op13r:
-    uses: ./.github/workflows/OnePlus_13R_15_6.1_Kernel.yml
+    uses: ./.github/workflows/build-kernel-op13r.yml
     secrets: inherit
     if: ${{ inputs.build_op13R }}
 
